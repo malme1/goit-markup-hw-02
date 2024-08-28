@@ -10,7 +10,22 @@ body{
     
 }
 
-.sec1 button{
+.logo{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+.logo .span-logo{
+    color: #2e2f42;
+}
+.header-address{
+    font-style: normal
+}
+.sec-one .main-btn{
 
     background: #4d5ae5;
    
@@ -30,7 +45,7 @@ body{
             flex-direction: row;
             gap: 10px;
 }
-.sec1 button:hover{
+.sec-one .main-btn:hover, .main-btn:focus{
     background: #404bbf;
 }
 
@@ -42,7 +57,7 @@ h1{
         text-align: center;
         color: #fff;
 }
-.sec1{
+.sec-one{
     background: #2e2f42;
     color: #fff;
     height: 600px;
@@ -70,7 +85,7 @@ address a:hover, address a:focus{
 ul, ol {
     list-style-type: none;
 }
-.sec3{
+.sec-three{
     background: #f4f4fd;
 }
 footer{
@@ -84,11 +99,32 @@ footer{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.sec-titles{
+.sec-two-title, .sec-three-title, .sec-four-title{
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11111;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize
+}
+.ppp{
+    font-size: 16px
+}
+.span-logo-bottom{
+    
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
+}
+.ppp-bottom{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
 }
