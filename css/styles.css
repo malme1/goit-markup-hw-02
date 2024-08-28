@@ -1,0 +1,94 @@
+body{
+    background: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    width: 100%;
+    
+}
+
+.sec1 button{
+
+    background: #4d5ae5;
+   
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: 0px; 
+        display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: row;
+            gap: 10px;
+}
+.sec1 button:hover{
+    background: #404bbf;
+}
+
+h1{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
+.sec1{
+    background: #2e2f42;
+    color: #fff;
+    height: 600px;
+}
+a{
+    color: #2e2f42;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+a:hover, a:focus{
+    color: #404bbf
+}
+address a{
+    color: #434455;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+address a:hover, address a:focus{
+    color: #404bbf;
+}
+ul, ol {
+    list-style-type: none;
+}
+.sec3{
+    background: #f4f4fd;
+}
+footer{
+    background: #2e2f42;
+    color: #f4f4fd;
+}
+.bold-names{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.sec-titles{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
